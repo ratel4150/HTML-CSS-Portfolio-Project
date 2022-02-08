@@ -1,8 +1,182 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+@font-face {
+    font-family: fantasy123;
+    src:"/fonts/TESLA.ttf";
+    
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  body{
+    background-color: #2F2E30;
+ 
+  }
+  header{
+    background-color: #2F2E30;
+    height: 200px;
+  }
+  
+
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  .redes-sociales a{
+    padding-left: 2px;
+    margin-left: 7px;
+    margin-top: 100px;
+    color: #2F2E30;
+
+  }
+  .redes-sociales a:hover{
+    color: blue;
+  }
+  .profile{
+    background-color: #edff00 ;
+    height: 300px;
+  
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    -webkit-box-shadow: 2px 1px 7px 5px rgba(0,0,0,0.32); 
+    box-shadow: 2px 1px 7px 5px rgba(0,0,0,0.32);
+    word-wrap: break-word;
+    
+
+  }
+  
+ 
+  .profile h2{
+    color:#2F2E30 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .profile hr{
+    color: #2F2E30 !important;
+    background-color: #2F2E30 !important;
+  }
+  .profile p{
+    color: #2F2E30 !important;
+    font-family: tahoma;
+  }
+  .col-4 img{
+    width: 50%;
+    height: 50%;
+    /* #d7d43f */
+    
+    
+  }
+  progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-bar {
+     background-color: white;
+  }
+  label{
+    color: white;
+  }
+  .row h2{
+    color: white;
+    font-family: "Ubuntu";
+    
+  }
+  .row hr{
+    color: white;
+    background-color: white;
+
+  }
+
+  .row p{
+    color: white;
+  }
+  .entre{
+    height: 500px;
+  }
+  
+  .projects-row{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .card-project{
+    -webkit-box-shadow: 2px 1px 7px 5px rgba(0,0,0,0.32); 
+    box-shadow: 2px 1px 7px 5px rgba(0,0,0,0.32);
+    word-wrap: break-word;
+    background-color: #2F2E30;
+    
+    
+  }
+  
+  .card-project img{
+    width: 100%;
+    height: auto;
+
+    
+  }
+  
+  .card-project h3{
+      color: white;
+      padding: 10px;
+      
+  }
+  .card-project p{
+      color: white;
+      padding: 10px;
+  }
+  .card-project hr{
+      color: white;
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .card-project h4{
+    color: white;
+    padding: 10px;
+  }
+

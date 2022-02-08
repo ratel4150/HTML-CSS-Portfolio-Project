@@ -12,16 +12,82 @@
       rel="stylesheet"
       type="text/css"
     />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" type="text/css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/286b7e7657.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
   </head>
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
 
       <header></header>
+      <section>
+        <div class="row profile">
+          <div class="col-8">
+            <h2>My name is Arturo  <i class="fab fa-whmcs "></i></h2>
+            <hr>
+            <p>I'm a junior web developer from Mexico with experience in HTML5, CSS3, Javascript and React. I have also experience with the back-end programming with Node.js and SQL. I am on my way to become a full-stack develeoper. I live in Barcelona.</p>
+          </div>
+          <div class="col-4">
+            <img src="images/account.png" alt="">
+            <div class="redes-sociales">
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-gitlab "></i></a>
+              <a href=""><i class="fab fa-git "></i></a>
+              <a href=""><i class="fab fa-bitbucket "></i></a>
+              <a href=""><i class="fab fa-gitter "></i></a>
+              <a href=""><i class="fab fa-slack"></i></a>
 
-      <main></main>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      <section class="entre">
+        <div class="row">
+          <div class="col-5">
+            
+
+            <canvas id="bar-chart-horizontal" width="300" height="200"></canvas>
+            <script src="js/chart.js"></script>
+          </div>
+         
+        </div>
+       
+      </section>
+      <main>
+        
+
+        <div class="row projects-row">
+          <h2>Projectos</h2>
+          <hr>
+          <p>Selection of web development projects I have made during my studies at Migracode Barcelona.</p>
+          <div class="col-6 ">
+            <div class="card-project">
+             <img src="images/laravel.png" alt="">
+              <h3>Laravel Project</h3>
+              <hr>
+              <p>This proyect is made with laravel to create a ecommerce site</p>
+              <h4>SEE THE CODE</h4>
+
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card-project">
+             
+              <h3>Laravel Project</h3>
+              <hr>
+              <p>This proyect is made with laravel to create a ecommerce site</p>
+              <h4>SEE THE CODE</h4>
+
+            </div>
+          </div>
+        </div>
+       
+      </main>
 
       <nav></nav>
 
